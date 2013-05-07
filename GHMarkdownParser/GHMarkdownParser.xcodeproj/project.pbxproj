@@ -7,135 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A744F57E13E737DF0038C189 /* NSString+GHMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */; };
-		A744F57F13E737DF0038C189 /* NSString+GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A744F57D13E737DF0038C189 /* NSString+GHMarkdownParser.m */; };
-		A7C525F613E6FE1A0003EEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C525F513E6FE1A0003EEE5 /* Foundation.framework */; };
-		A7C525FC13E6FE1A0003EEE5 /* GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */; };
-		A7C5260513E700910003EEE5 /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260313E700910003EEE5 /* mkdio.c */; };
-		A7C5260613E700910003EEE5 /* mkdio.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5260413E700910003EEE5 /* mkdio.h */; };
-		A7C5260913E700A00003EEE5 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260713E700A00003EEE5 /* markdown.c */; };
-		A7C5260A13E700A00003EEE5 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5260813E700A00003EEE5 /* markdown.h */; };
-		A7C5260C13E700AD0003EEE5 /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260B13E700AD0003EEE5 /* generate.c */; };
-		A7C5260E13E700B80003EEE5 /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260D13E700B80003EEE5 /* resource.c */; };
-		A7C5261013E700C20003EEE5 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260F13E700C20003EEE5 /* xml.c */; };
-		A7C5261213E700CB0003EEE5 /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261113E700CB0003EEE5 /* Csio.c */; };
-		A7C5261413E700D50003EEE5 /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261313E700D50003EEE5 /* emmatch.c */; };
-		A7C5261613E700DE0003EEE5 /* html5.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261513E700DE0003EEE5 /* html5.c */; };
-		A7C5261913E700E80003EEE5 /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261713E700E80003EEE5 /* tags.c */; };
-		A7C5261C13E7010A0003EEE5 /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5261B13E7010A0003EEE5 /* tags.h */; };
-		A7C5261E13E7012B0003EEE5 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5261D13E7012B0003EEE5 /* setup.c */; };
-		A7C5262013E7013E0003EEE5 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5261F13E7013E0003EEE5 /* config.h */; };
+		A92FCB811738A8D60076B809 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92FCB801738A8D60076B809 /* Cocoa.framework */; };
+		A96D73E21738A90F001E88CC /* NSString+GHMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A96D73E01738A90F001E88CC /* NSString+GHMarkdownParser.h */; };
+		A96D73E31738A90F001E88CC /* NSString+GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D73E11738A90F001E88CC /* NSString+GHMarkdownParser.m */; };
+		A96D74381738A93F001E88CC /* GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A96D74371738A93F001E88CC /* GHMarkdownParser.m */; };
+		A96D743B1738A9CF001E88CC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A96D743A1738A9CF001E88CC /* config.h */; };
+		A96D743D1738A9DE001E88CC /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D743C1738A9DE001E88CC /* setup.c */; };
+		A96D74401738A9EB001E88CC /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D743E1738A9EB001E88CC /* tags.c */; };
+		A96D74411738A9EB001E88CC /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = A96D743F1738A9EB001E88CC /* tags.h */; };
+		A96D74431738A9F8001E88CC /* html5.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D74421738A9F8001E88CC /* html5.c */; };
+		A96D74451738AA02001E88CC /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D74441738AA02001E88CC /* emmatch.c */; };
+		A96D74471738AA11001E88CC /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D74461738AA11001E88CC /* Csio.c */; };
+		A96D74491738AA1B001E88CC /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D74481738AA1B001E88CC /* xml.c */; };
+		A96D744B1738AA27001E88CC /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D744A1738AA27001E88CC /* resource.c */; };
+		A96D744D1738AA32001E88CC /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D744C1738AA32001E88CC /* generate.c */; };
+		A96D74501738AA40001E88CC /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D744E1738AA40001E88CC /* markdown.c */; };
+		A96D74511738AA40001E88CC /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = A96D744F1738AA40001E88CC /* markdown.h */; };
+		A96D74541738AA4B001E88CC /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = A96D74521738AA4B001E88CC /* mkdio.c */; };
+		A96D74551738AA4B001E88CC /* mkdio.h in Headers */ = {isa = PBXBuildFile; fileRef = A96D74531738AA4B001E88CC /* mkdio.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A744F55A13E728CD0038C189 /* blocktags */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = blocktags; path = ../../discount/blocktags; sourceTree = "<group>"; };
-		A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GHMarkdownParser.h"; sourceTree = "<group>"; };
-		A744F57D13E737DF0038C189 /* NSString+GHMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GHMarkdownParser.m"; sourceTree = "<group>"; };
-		A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHMarkdownParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7C525F513E6FE1A0003EEE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A7C525F913E6FE1A0003EEE5 /* GHMarkdownParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHMarkdownParser-Prefix.pch"; sourceTree = "<group>"; };
-		A7C525FA13E6FE1A0003EEE5 /* GHMarkdownParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMarkdownParser.h; sourceTree = "<group>"; };
-		A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHMarkdownParser.m; sourceTree = "<group>"; };
-		A7C5260313E700910003EEE5 /* mkdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mkdio.c; path = ../../discount/mkdio.c; sourceTree = "<group>"; };
-		A7C5260413E700910003EEE5 /* mkdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mkdio.h; path = ../../discount/mkdio.h; sourceTree = "<group>"; };
-		A7C5260713E700A00003EEE5 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = ../../discount/markdown.c; sourceTree = "<group>"; };
-		A7C5260813E700A00003EEE5 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = ../../discount/markdown.h; sourceTree = "<group>"; };
-		A7C5260B13E700AD0003EEE5 /* generate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = generate.c; path = ../../discount/generate.c; sourceTree = "<group>"; };
-		A7C5260D13E700B80003EEE5 /* resource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resource.c; path = ../../discount/resource.c; sourceTree = "<group>"; };
-		A7C5260F13E700C20003EEE5 /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xml.c; path = ../../discount/xml.c; sourceTree = "<group>"; };
-		A7C5261113E700CB0003EEE5 /* Csio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Csio.c; path = ../../discount/Csio.c; sourceTree = "<group>"; };
-		A7C5261313E700D50003EEE5 /* emmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = emmatch.c; path = ../../discount/emmatch.c; sourceTree = "<group>"; };
-		A7C5261513E700DE0003EEE5 /* html5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html5.c; path = ../../discount/html5.c; sourceTree = "<group>"; };
-		A7C5261713E700E80003EEE5 /* tags.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tags.c; path = ../../discount/tags.c; sourceTree = "<group>"; };
-		A7C5261B13E7010A0003EEE5 /* tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tags.h; path = ../../discount/tags.h; sourceTree = "<group>"; };
-		A7C5261D13E7012B0003EEE5 /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = setup.c; path = ../../discount/setup.c; sourceTree = "<group>"; };
-		A7C5261F13E7013E0003EEE5 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../discount/config.h; sourceTree = "<group>"; };
+		A92FCB7D1738A8D60076B809 /* GHMarkdownParser.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = GHMarkdownParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92FCB801738A8D60076B809 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A92FCB831738A8D60076B809 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A92FCB841738A8D60076B809 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A92FCB851738A8D60076B809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A92FCB881738A8D60076B809 /* GHMarkdownParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHMarkdownParser-Prefix.pch"; sourceTree = "<group>"; };
+		A92FCB891738A8D60076B809 /* GHMarkdownParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMarkdownParser.h; sourceTree = "<group>"; };
+		A96D73E01738A90F001E88CC /* NSString+GHMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GHMarkdownParser.h"; sourceTree = "<group>"; };
+		A96D73E11738A90F001E88CC /* NSString+GHMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GHMarkdownParser.m"; sourceTree = "<group>"; };
+		A96D74371738A93F001E88CC /* GHMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHMarkdownParser.m; path = GHMarkdownParser/GHMarkdownParser.m; sourceTree = SOURCE_ROOT; };
+		A96D743A1738A9CF001E88CC /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../discount/config.h; sourceTree = "<group>"; };
+		A96D743C1738A9DE001E88CC /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = setup.c; path = ../../discount/setup.c; sourceTree = "<group>"; };
+		A96D743E1738A9EB001E88CC /* tags.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tags.c; path = ../../discount/tags.c; sourceTree = "<group>"; };
+		A96D743F1738A9EB001E88CC /* tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tags.h; path = ../../discount/tags.h; sourceTree = "<group>"; };
+		A96D74421738A9F8001E88CC /* html5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html5.c; path = ../../discount/html5.c; sourceTree = "<group>"; };
+		A96D74441738AA02001E88CC /* emmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = emmatch.c; path = ../../discount/emmatch.c; sourceTree = "<group>"; };
+		A96D74461738AA11001E88CC /* Csio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Csio.c; path = ../../discount/Csio.c; sourceTree = "<group>"; };
+		A96D74481738AA1B001E88CC /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xml.c; path = ../../discount/xml.c; sourceTree = "<group>"; };
+		A96D744A1738AA27001E88CC /* resource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resource.c; path = ../../discount/resource.c; sourceTree = "<group>"; };
+		A96D744C1738AA32001E88CC /* generate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = generate.c; path = ../../discount/generate.c; sourceTree = "<group>"; };
+		A96D744E1738AA40001E88CC /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = ../../discount/markdown.c; sourceTree = "<group>"; };
+		A96D744F1738AA40001E88CC /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = ../../discount/markdown.h; sourceTree = "<group>"; };
+		A96D74521738AA4B001E88CC /* mkdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mkdio.c; path = ../../discount/mkdio.c; sourceTree = "<group>"; };
+		A96D74531738AA4B001E88CC /* mkdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mkdio.h; path = ../../discount/mkdio.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A7C525EF13E6FE1A0003EEE5 /* Frameworks */ = {
+		A92FCB7A1738A8D60076B809 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C525F613E6FE1A0003EEE5 /* Foundation.framework in Frameworks */,
+				A92FCB811738A8D60076B809 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A744F57A13E737880038C189 /* Foundation and Class Additions */ = {
+		A92FCB741738A8D60076B809 = {
 			isa = PBXGroup;
 			children = (
-				A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */,
-				A744F57D13E737DF0038C189 /* NSString+GHMarkdownParser.m */,
-			);
-			path = "Foundation and Class Additions";
-			sourceTree = "<group>";
-		};
-		A7C525E713E6FE1A0003EEE5 = {
-			isa = PBXGroup;
-			children = (
-				A7C525F713E6FE1A0003EEE5 /* GHMarkdownParser */,
-				A7C525F413E6FE1A0003EEE5 /* Frameworks */,
-				A7C525F313E6FE1A0003EEE5 /* Products */,
+				A92FCB861738A8D60076B809 /* GHMarkdownParser */,
+				A92FCB7F1738A8D60076B809 /* Frameworks */,
+				A92FCB7E1738A8D60076B809 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A7C525F313E6FE1A0003EEE5 /* Products */ = {
+		A92FCB7E1738A8D60076B809 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */,
+				A92FCB7D1738A8D60076B809 /* GHMarkdownParser.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7C525F413E6FE1A0003EEE5 /* Frameworks */ = {
+		A92FCB7F1738A8D60076B809 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7C525F513E6FE1A0003EEE5 /* Foundation.framework */,
+				A92FCB801738A8D60076B809 /* Cocoa.framework */,
+				A92FCB821738A8D60076B809 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A7C525F713E6FE1A0003EEE5 /* GHMarkdownParser */ = {
+		A92FCB821738A8D60076B809 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A744F57A13E737880038C189 /* Foundation and Class Additions */,
-				A7C5260213E700730003EEE5 /* discount */,
-				A7C525FA13E6FE1A0003EEE5 /* GHMarkdownParser.h */,
-				A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */,
-				A7C525F813E6FE1A0003EEE5 /* Supporting Files */,
+				A92FCB831738A8D60076B809 /* AppKit.framework */,
+				A92FCB841738A8D60076B809 /* CoreData.framework */,
+				A92FCB851738A8D60076B809 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A92FCB861738A8D60076B809 /* GHMarkdownParser */ = {
+			isa = PBXGroup;
+			children = (
+				A96D74371738A93F001E88CC /* GHMarkdownParser.m */,
+				A92FCB891738A8D60076B809 /* GHMarkdownParser.h */,
+				A96D73DF1738A90F001E88CC /* Foundation and Class Additions */,
+				A96D74391738A99E001E88CC /* discount */,
+				A92FCB871738A8D60076B809 /* Supporting Files */,
 			);
 			path = GHMarkdownParser;
 			sourceTree = "<group>";
 		};
-		A7C525F813E6FE1A0003EEE5 /* Supporting Files */ = {
+		A92FCB871738A8D60076B809 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7C525F913E6FE1A0003EEE5 /* GHMarkdownParser-Prefix.pch */,
+				A92FCB881738A8D60076B809 /* GHMarkdownParser-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A7C5260213E700730003EEE5 /* discount */ = {
+		A96D73DF1738A90F001E88CC /* Foundation and Class Additions */ = {
 			isa = PBXGroup;
 			children = (
-				A744F55A13E728CD0038C189 /* blocktags */,
-				A7C5261F13E7013E0003EEE5 /* config.h */,
-				A7C5261D13E7012B0003EEE5 /* setup.c */,
-				A7C5261B13E7010A0003EEE5 /* tags.h */,
-				A7C5261713E700E80003EEE5 /* tags.c */,
-				A7C5261513E700DE0003EEE5 /* html5.c */,
-				A7C5261313E700D50003EEE5 /* emmatch.c */,
-				A7C5261113E700CB0003EEE5 /* Csio.c */,
-				A7C5260F13E700C20003EEE5 /* xml.c */,
-				A7C5260D13E700B80003EEE5 /* resource.c */,
-				A7C5260B13E700AD0003EEE5 /* generate.c */,
-				A7C5260713E700A00003EEE5 /* markdown.c */,
-				A7C5260813E700A00003EEE5 /* markdown.h */,
-				A7C5260313E700910003EEE5 /* mkdio.c */,
-				A7C5260413E700910003EEE5 /* mkdio.h */,
+				A96D73E01738A90F001E88CC /* NSString+GHMarkdownParser.h */,
+				A96D73E11738A90F001E88CC /* NSString+GHMarkdownParser.m */,
+			);
+			path = "Foundation and Class Additions";
+			sourceTree = "<group>";
+		};
+		A96D74391738A99E001E88CC /* discount */ = {
+			isa = PBXGroup;
+			children = (
+				A96D743A1738A9CF001E88CC /* config.h */,
+				A96D743C1738A9DE001E88CC /* setup.c */,
+				A96D743E1738A9EB001E88CC /* tags.c */,
+				A96D743F1738A9EB001E88CC /* tags.h */,
+				A96D74421738A9F8001E88CC /* html5.c */,
+				A96D74441738AA02001E88CC /* emmatch.c */,
+				A96D74461738AA11001E88CC /* Csio.c */,
+				A96D74481738AA1B001E88CC /* xml.c */,
+				A96D744A1738AA27001E88CC /* resource.c */,
+				A96D744C1738AA32001E88CC /* generate.c */,
+				A96D744E1738AA40001E88CC /* markdown.c */,
+				A96D744F1738AA40001E88CC /* markdown.h */,
+				A96D74521738AA4B001E88CC /* mkdio.c */,
+				A96D74531738AA4B001E88CC /* mkdio.h */,
 			);
 			name = discount;
 			sourceTree = "<group>";
@@ -143,28 +155,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A7C525F013E6FE1A0003EEE5 /* Headers */ = {
+		A92FCB7B1738A8D60076B809 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C5260613E700910003EEE5 /* mkdio.h in Headers */,
-				A7C5260A13E700A00003EEE5 /* markdown.h in Headers */,
-				A7C5261C13E7010A0003EEE5 /* tags.h in Headers */,
-				A7C5262013E7013E0003EEE5 /* config.h in Headers */,
-				A744F57E13E737DF0038C189 /* NSString+GHMarkdownParser.h in Headers */,
+				A96D73E21738A90F001E88CC /* NSString+GHMarkdownParser.h in Headers */,
+				A96D743B1738A9CF001E88CC /* config.h in Headers */,
+				A96D74411738A9EB001E88CC /* tags.h in Headers */,
+				A96D74511738AA40001E88CC /* markdown.h in Headers */,
+				A96D74551738AA4B001E88CC /* mkdio.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A7C525F113E6FE1A0003EEE5 /* GHMarkdownParser */ = {
+		A92FCB7C1738A8D60076B809 /* GHMarkdownParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7C525FF13E6FE1A0003EEE5 /* Build configuration list for PBXNativeTarget "GHMarkdownParser" */;
+			buildConfigurationList = A92FCB8E1738A8D60076B809 /* Build configuration list for PBXNativeTarget "GHMarkdownParser" */;
 			buildPhases = (
-				A7C525EE13E6FE1A0003EEE5 /* Sources */,
-				A7C525EF13E6FE1A0003EEE5 /* Frameworks */,
-				A7C525F013E6FE1A0003EEE5 /* Headers */,
+				A92FCB791738A8D60076B809 /* Sources */,
+				A92FCB7A1738A8D60076B809 /* Frameworks */,
+				A92FCB7B1738A8D60076B809 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -172,150 +184,167 @@
 			);
 			name = GHMarkdownParser;
 			productName = GHMarkdownParser;
-			productReference = A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = A92FCB7D1738A8D60076B809 /* GHMarkdownParser.a */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A7C525E913E6FE1A0003EEE5 /* Project object */ = {
+		A92FCB751738A8D60076B809 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = Home;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Watson;
 			};
-			buildConfigurationList = A7C525EC13E6FE1A0003EEE5 /* Build configuration list for PBXProject "GHMarkdownParser" */;
+			buildConfigurationList = A92FCB781738A8D60076B809 /* Build configuration list for PBXProject "GHMarkdownParser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A7C525E713E6FE1A0003EEE5;
-			productRefGroup = A7C525F313E6FE1A0003EEE5 /* Products */;
+			mainGroup = A92FCB741738A8D60076B809;
+			productRefGroup = A92FCB7E1738A8D60076B809 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7C525F113E6FE1A0003EEE5 /* GHMarkdownParser */,
+				A92FCB7C1738A8D60076B809 /* GHMarkdownParser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A7C525EE13E6FE1A0003EEE5 /* Sources */ = {
+		A92FCB791738A8D60076B809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C525FC13E6FE1A0003EEE5 /* GHMarkdownParser.m in Sources */,
-				A7C5260513E700910003EEE5 /* mkdio.c in Sources */,
-				A7C5260913E700A00003EEE5 /* markdown.c in Sources */,
-				A7C5260C13E700AD0003EEE5 /* generate.c in Sources */,
-				A7C5260E13E700B80003EEE5 /* resource.c in Sources */,
-				A7C5261013E700C20003EEE5 /* xml.c in Sources */,
-				A7C5261213E700CB0003EEE5 /* Csio.c in Sources */,
-				A7C5261413E700D50003EEE5 /* emmatch.c in Sources */,
-				A7C5261613E700DE0003EEE5 /* html5.c in Sources */,
-				A7C5261913E700E80003EEE5 /* tags.c in Sources */,
-				A7C5261E13E7012B0003EEE5 /* setup.c in Sources */,
-				A744F57F13E737DF0038C189 /* NSString+GHMarkdownParser.m in Sources */,
+				A96D73E31738A90F001E88CC /* NSString+GHMarkdownParser.m in Sources */,
+				A96D74381738A93F001E88CC /* GHMarkdownParser.m in Sources */,
+				A96D743D1738A9DE001E88CC /* setup.c in Sources */,
+				A96D74401738A9EB001E88CC /* tags.c in Sources */,
+				A96D74431738A9F8001E88CC /* html5.c in Sources */,
+				A96D74451738AA02001E88CC /* emmatch.c in Sources */,
+				A96D74471738AA11001E88CC /* Csio.c in Sources */,
+				A96D74491738AA1B001E88CC /* xml.c in Sources */,
+				A96D744B1738AA27001E88CC /* resource.c in Sources */,
+				A96D744D1738AA32001E88CC /* generate.c in Sources */,
+				A96D74501738AA40001E88CC /* markdown.c in Sources */,
+				A96D74541738AA4B001E88CC /* mkdio.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A7C525FD13E6FE1A0003EEE5 /* Debug */ = {
+		A92FCB8C1738A8D60076B809 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "../discount/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LD_RUNPATH_SEARCH_PATHS = "";
-				SDKROOT = iphoneos;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		A7C525FE13E6FE1A0003EEE5 /* Release */ = {
+		A92FCB8D1738A8D60076B809 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "../discount/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LD_RUNPATH_SEARCH_PATHS = "";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		A7C5260013E6FE1A0003EEE5 /* Debug */ = {
+		A92FCB8F1738A8D60076B809 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/GHMarkdownParser.dst;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GHMarkdownParser/GHMarkdownParser-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A7C5260113E6FE1A0003EEE5 /* Release */ = {
+		A92FCB901738A8D60076B809 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/GHMarkdownParser.dst;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GHMarkdownParser/GHMarkdownParser-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7C525EC13E6FE1A0003EEE5 /* Build configuration list for PBXProject "GHMarkdownParser" */ = {
+		A92FCB781738A8D60076B809 /* Build configuration list for PBXProject "GHMarkdownParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7C525FD13E6FE1A0003EEE5 /* Debug */,
-				A7C525FE13E6FE1A0003EEE5 /* Release */,
+				A92FCB8C1738A8D60076B809 /* Debug */,
+				A92FCB8D1738A8D60076B809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7C525FF13E6FE1A0003EEE5 /* Build configuration list for PBXNativeTarget "GHMarkdownParser" */ = {
+		A92FCB8E1738A8D60076B809 /* Build configuration list for PBXNativeTarget "GHMarkdownParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7C5260013E6FE1A0003EEE5 /* Debug */,
-				A7C5260113E6FE1A0003EEE5 /* Release */,
+				A92FCB8F1738A8D60076B809 /* Debug */,
+				A92FCB901738A8D60076B809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A7C525E913E6FE1A0003EEE5 /* Project object */;
+	rootObject = A92FCB751738A8D60076B809 /* Project object */;
 }
